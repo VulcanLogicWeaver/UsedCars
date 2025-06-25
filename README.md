@@ -28,3 +28,16 @@ What factors make a car more or less expensive? [Plots charted to indicate this 
 
 If you are able to collect more of these factors, you can fetch a higher price for cars compared to cars without these parameters.
 Hence the recommendation to car dealers is to capture and advertise cars with these features.
+
+Project2.ipynb
+Python notebook has the following items:
+- Import vehicles.csv data file from Kaggle and filter out data that is not relevant for analysis
+- Identify correlation matrix for features 'condition', title_status', 'transmission'
+- Predict the price of the car with:
+-    numeric features only - 'odometer' & 'year'
+-    numeric and non-numeric features - 'odometer', 'year' & 'transmission'
+-    with LASSO regression
+- Using plots to identify patterns:
+-    Scatter plot with 'year' & 'price', 'year' & 'odometer'
+-    Box plot with 'condition' & 'price', 'title_status' & 'price', 'transmission' & 'price'
+- The plots clearly articulate the findings from regression alaysis
