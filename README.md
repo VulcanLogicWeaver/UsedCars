@@ -20,11 +20,11 @@ By observing the dummy columns correlation values, it is clear:
 
 Deliverables:
 What factors make a car more or less expensive? [Plots charted to indicate this influencing factors]
-  -> More recent year cars fetch a better price [Positive Correlation]
-  -> Cars with less odometer reading fetch a better price [Negative Correlation]
-  -> Cars with condition 'New', 'Like new', 'Good' condition fetch a better price [Positive Correlation]
-  -> Cars with title 'Salvage', 'Rebuilt', 'Parts only', 'Missing' have a negative price impact [Negative Correlation]
-  -> Folks do not prefer cars with 'Manual' Transmission [Very less inventory compared to other transmission types]
+- More recent year cars fetch a better price [Positive Correlation]
+- Cars with less odometer reading fetch a better price [Negative Correlation]
+- Cars with condition 'New', 'Like new', 'Good' condition fetch a better price [Positive Correlation]
+- Cars with title 'Salvage', 'Rebuilt', 'Parts only', 'Missing' have a negative price impact [Negative Correlation]
+- Folks do not prefer cars with 'Manual' Transmission [Very less inventory compared to other transmission types]
 
 If you are able to collect more of these factors, you can fetch a higher price for cars compared to cars without these parameters.
 Hence the recommendation to car dealers is to capture and advertise cars with these features.
